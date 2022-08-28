@@ -1,0 +1,90 @@
+{
+  "intents":
+  [
+    {
+      "tag": "greeting",
+      "patterns":
+      [
+        "Hi",
+        "Hey",
+        "Hello",
+        "How are you",
+        "Is anyone there?",
+        "Greetings"
+      ],
+
+      "responses":
+      [
+        "Hey",
+        "Hello",
+        "Hi there, how can I help you today?",
+        "Hey, how are you?"
+      ]
+    },
+
+    {
+      "tag": "bye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses":
+      [
+        "Thanks for visiting",
+        "Goodbye",
+        "Have a good one.",
+        "Hope this helped :)",
+        "Have a great day."
+      ]
+    },
+
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "Thanks a lot!"],
+      "responses": ["I am always happy to help!", "Any time!", "My pleasure", "I'm glad this helped you"]
+    },
+
+    {
+      "tag": "funny",
+      "patterns":
+      [
+        "Tell me a joke!",
+        "Say something funny",
+        "Crack a joke",
+        "Joke please"
+      ],
+
+      "responses":
+      [
+        "Did you hear about the guy who froze to death at the drive-in? He went to see Closed for the Winter.",
+        "We all know about Murphy’s Law: anything that can go wrong will go wrong. But have you heard of Cole’s Law? It’s thinly sliced cabbage.",
+        "When does a joke become a 'dad joke?' When it becomes apparent.",
+        "I searched for a lighter on Amazon, but all I could find was 401 matches",
+        "I sold our vacuum cleaner; it was just gathering dust.",
+        "A ham sandwich walks into a bar and orders a beer. The bartender says, 'Sorry, we don’t serve food here'",
+        "I was just reminiscing about the beautiful herb garden I had when I was growing up. Good thymes."
+      ]
+    },
+
+    {
+      "tag": "food",
+      "patterns":
+              [
+                "Where should I eat today?",
+                "Food for today",
+                "Which places are available to eat?"
+              ],
+      "responses":
+              [
+                "Lowry, Kittredge, Knowlton, Boo Bears and Food Truck behind Williams are available today."
+              ]
+    },
+
+    {
+      "tag": "post office",
+      "patterns": [
+        "Where is the post office?"
+      ],
+      "responses": [
+        "Currently, the post office is located at Gault Schoolhouse."
+      ]
+    }
+  ]
+}
